@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>고래잇 × 이마트 보물찾기 프로젝트 쇼케이스</title>
+  <meta name="description" content="고래잇 × 이마트 보물찾기 프로젝트 박근량 작업물 쇼케이스" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── 배경 장식 ── -->
+  <div class="bg-glow bg-glow--1" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--2" aria-hidden="true"></div>
+
+  <!-- ── 네비게이션 바 (4.1) ── -->
+  <nav class="sticky-nav" id="main-nav">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">박근량 쇼케이스</a>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">홈</a></li>
+        <li><a href="#plan" class="nav-link">홍보 기획서</a></li>
+        <li><a href="#brief" class="nav-link">콘텐츠 브리프</a></li>
+        <li><a href="#poster" class="nav-link">포스터</a></li>
+        <li><a href="#cardnews" class="nav-link">카드뉴스</a></li>
+        <li><a href="#video" class="nav-link">동영상</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="page">
+    <!-- ── 헤더 영역 (홈) ── -->
+    <header id="home" class="page-header reveal section-target">
+      <div class="header-meta">
+        <span class="badge">박근량</span>
+        <span class="badge badge--gold">고래잇 × 이마트</span>
+      </div>
+      <h1 class="page-title">프로젝트 포트폴리오</h1>
+      <p class="page-desc">
+        고래잇 × 이마트 보물찾기 프로젝트 박근량의 작업물(홍보 기획서, 콘텐츠 브리프, 포스터, 카드뉴스, 동영상)을 모아놓은 쇼케이스입니다.
+      </p>
+    </header>
+
+    <!-- ── 홍보 기획서 (4.3) ── -->
+    <section id="plan" class="viewer-section reveal reveal--delay section-target" aria-label="홍보 기획서 PDF 뷰어">
+      <h2 class="section-heading">홍보 기획서</h2>
+      <div class="viewer-card">
+        <div class="viewer-topbar">
+          <div class="viewer-topbar__dots" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+          <span class="viewer-topbar__label">고래잇 x 이마트 보물찾기 프로젝트 홍보 기획서_완성본.pdf</span>
+          <a
+            href="홍보 기획서/고래잇 x 이마트 보물찾기 프로젝트 홍보 기획서_완성본.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="viewer-topbar__link"
+            aria-label="새 탭에서 열기"
+          >↗</a>
+        </div>
+
+        <iframe
+          id="pdf-iframe-plan"
+          src="홍보 기획서/고래잇 x 이마트 보물찾기 프로젝트 홍보 기획서_완성본.pdf"
+          class="pdf-frame"
+          title="홍보 기획서 PDF"
+          allowfullscreen
+        ></iframe>
+
+        <!-- iframe 차단 시 폴백 -->
+        <div class="pdf-fallback" id="pdf-fallback-plan" hidden aria-live="polite">
+          <div class="pdf-fallback__icon" aria-hidden="true">📄</div>
+          <p class="pdf-fallback__msg">PDF를 인라인으로 표시할 수 없습니다.</p>
+          <a
+            href="홍보 기획서/고래잇 x 이마트 보물찾기 프로젝트 홍보 기획서_완성본.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn--primary"
+          >PDF 열기</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 콘텐츠 브리프 (4.4) ── -->
+    <section id="brief" class="viewer-section reveal section-target" aria-label="콘텐츠 브리프 PDF 뷰어">
+      <h2 class="section-heading">콘텐츠 브리프</h2>
+      <div class="viewer-card">
+        <div class="viewer-topbar">
+          <div class="viewer-topbar__dots" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+          <span class="viewer-topbar__label">이마트_보물찾기_콘텐츠브리프 (1) (1).pdf</span>
+          <a
+            href="콘텐츠 브리프/이마트_보물찾기_콘텐츠브리프 (1) (1).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="viewer-topbar__link"
+            aria-label="새 탭에서 열기"
+          >↗</a>
+        </div>
+        <iframe
+          id="pdf-iframe-brief"
+          src="콘텐츠 브리프/이마트_보물찾기_콘텐츠브리프 (1) (1).pdf"
+          class="pdf-frame"
+          title="콘텐츠 브리프 PDF"
+          allowfullscreen
+        ></iframe>
+        <div class="pdf-fallback" id="pdf-fallback-brief" hidden aria-live="polite">
+          <div class="pdf-fallback__icon" aria-hidden="true">📄</div>
+          <p class="pdf-fallback__msg">PDF를 인라인으로 표시할 수 없습니다.</p>
+          <a
+            href="콘텐츠 브리프/이마트_보물찾기_콘텐츠브리프 (1) (1).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn--primary"
+          >PDF 열기</a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- ── 포스터 (4.5) ── -->
+    <section id="poster" class="viewer-section reveal section-target" aria-label="프로젝트 포스터">
+      <h2 class="section-heading">포스터</h2>
+      <div class="viewer-card image-card" onclick="openLightbox('포스터/image (1).png')">
+        <img src="포스터/image (1).png" alt="프로젝트 포스터" class="poster-img" loading="lazy" />
+        <div class="image-overlay">
+          <span class="overlay-text">🔍 클릭하여 원본 보기</span>
+        </div>
+      </div>
+    </section>
+    
+    <!-- ── 카드뉴스 (4.6) ── -->
+    <section id="cardnews" class="viewer-section reveal section-target" aria-label="카드뉴스">
+      <h2 class="section-heading">카드뉴스</h2>
+      <div class="viewer-card carousel-container" id="carousel">
+        <div class="carousel-track" id="carousel-track">
+          <img src="카드 뉴스/1.png" alt="카드뉴스 1" class="carousel-slide" onclick="openLightbox(this.src)" loading="lazy" />
+          <img src="카드 뉴스/2.png" alt="카드뉴스 2" class="carousel-slide" onclick="openLightbox(this.src)" loading="lazy" />
+          <img src="카드 뉴스/3.png" alt="카드뉴스 3" class="carousel-slide" onclick="openLightbox(this.src)" loading="lazy" />
+          <img src="카드 뉴스/4.png" alt="카드뉴스 4" class="carousel-slide" onclick="openLightbox(this.src)" loading="lazy" />
+          <img src="카드 뉴스/5.png" alt="카드뉴스 5" class="carousel-slide" onclick="openLightbox(this.src)" loading="lazy" />
+          <img src="카드 뉴스/6.png" alt="카드뉴스 6" class="carousel-slide" onclick="openLightbox(this.src)" loading="lazy" />
+        </div>
+        
+        <!-- Controls -->
+        <button class="carousel-btn prev-btn" id="carousel-prev" aria-label="이전 슬라이드">❮</button>
+        <button class="carousel-btn next-btn" id="carousel-next" aria-label="다음 슬라이드">❯</button>
+        
+        <!-- Indicators -->
+        <div class="carousel-dots" id="carousel-dots">
+          <!-- JS에서 동적 생성 -->
+        </div>
+      </div>
+    </section>
+    
+    <section id="video" class="viewer-section reveal section-target" aria-label="홍보 동영상">
+      <h2 class="section-heading">프로젝트 동영상</h2>
+      <div class="video-container viewer-card">
+        <video
+          class="video-player"
+          controls
+          preload="metadata"
+          poster="포스터/image (1).png"
+        >
+          <source src="동영상/5조.mp4" type="video/mp4" />
+          해당 브라우저에서는 동영상을 지원하지 않습니다. <a href="동영상/5조.mp4" download>다운로드</a>하여 시청해 주세요.
+        </video>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── 라이트박스 ── -->
+  <div id="lightbox" class="lightbox" hidden onclick="closeLightbox(event)">
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="원본 이미지" />
+      <button class="lightbox-close" aria-label="닫기">✕</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
